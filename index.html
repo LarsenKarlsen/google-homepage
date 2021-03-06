@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Google</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div>
-            <a href="img_search.html">Image Search</a>
-            <a href="advanced_search.html">Advanced Search</a>
-        </div>
+        <header>
+            <ul>
+                <li><a href="">Gmail</a></li>
+                <li><a href="">Images</a></li>
+                <li><a href="">Log in</a></li>
+            </ul>
+        </header>
         <form class='search_form' action="https://google.com/search">
+            <div class="img-logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+            </div>
             <input class='search_field' type="text" name="q"><br>
             <div id='buttons'>
                 <input class="submit_button" type="submit" value="Google Search">
